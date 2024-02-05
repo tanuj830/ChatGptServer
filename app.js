@@ -26,6 +26,6 @@ app.use(express.json());
 
 app.use("/text", Text);
 
-app.listen(process.env.PORT || 8000, () => {
+app.listen(8000, () => {
   "Server connected successfully";
 });
